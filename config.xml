@@ -6,5 +6,5 @@
 	<name>Richard</name>
 	<preference name ="Fullscreen" value ="true" />
 	<description> This application is my first hybrid application</description>
-	<icon src = "images/a.png/>
+	<icon src = "images/a.png"/>
 </widget>
