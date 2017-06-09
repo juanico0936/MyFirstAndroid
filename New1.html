@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    background-color: black;
+}
+
+</style>
+</head>
+<body>
+<div id="PROFILE" hidden>
+<center><h1><p style="color:lightgreen;"> ^^Nothing to Say^^</h1>
+<img src="images/MagiS2_03_1-640x250.jpg" alt="Mountain View" style="width:450px;height:450px;">
+<h2><p style="color:lightgreen;">•ALIBABA SALALUJA*<h2>
+</body>
+</html>
+</div>
+
+<center><button onclick="myFunction()">CLICK</button></center>
+<script>
+
+function myFunction() {
+
+    var x = document.getElementById('PROFILE');
+    if (x.style.display === 'none') {
+		alert('Hello World!');
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
